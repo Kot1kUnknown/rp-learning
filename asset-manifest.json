@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/rp-learning/static/js/main.f551468e.chunk.js",
+    "main.js.map": "/rp-learning/static/js/main.f551468e.chunk.js.map",
+    "runtime-main.js": "/rp-learning/static/js/runtime-main.5abc3ca0.js",
+    "runtime-main.js.map": "/rp-learning/static/js/runtime-main.5abc3ca0.js.map",
+    "static/css/2.8a938937.chunk.css": "/rp-learning/static/css/2.8a938937.chunk.css",
+    "static/js/2.bc3d7f19.chunk.js": "/rp-learning/static/js/2.bc3d7f19.chunk.js",
+    "static/js/2.bc3d7f19.chunk.js.map": "/rp-learning/static/js/2.bc3d7f19.chunk.js.map",
+    "index.html": "/rp-learning/index.html",
+    "static/css/2.8a938937.chunk.css.map": "/rp-learning/static/css/2.8a938937.chunk.css.map",
+    "static/js/2.bc3d7f19.chunk.js.LICENSE.txt": "/rp-learning/static/js/2.bc3d7f19.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5abc3ca0.js",
+    "static/css/2.8a938937.chunk.css",
+    "static/js/2.bc3d7f19.chunk.js",
+    "static/js/main.f551468e.chunk.js"
+  ]
+}
