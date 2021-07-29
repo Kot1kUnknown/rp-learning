@@ -41,12 +41,35 @@ import {
 const App = () => {
 	const [activePanel, setActivePanel] = useState('main');
 	const [activeStory, setActiveStory] = useState("server");
+	const isDesktop = viewWidth >= ViewWidth.TABLET;
+	const hasHeader = platform !== VKCOM;
 
 
 	return (
 		<ConfigProvider>
 			<AppRoot>
 				<SplitLayout>
+					{isDesktop && (
+						<SplitCol fixed width="280px" maxWidth="280px">
+							<Panel>
+								{hasHeader && <PanelHeader />}
+								<Group>
+									<Cell
+										disabled={activeStory === 'server'}
+										style={activeStory === 'server' ? {
+											backgroundColor: "var(--button_secondary_background)",
+											borderRadius: 8
+										} : {}}
+										data-story="server"
+										onClick={onStoryChange}
+										before={<Icon28NewsfeedOutline />}
+									>
+										Топ серверов
+									</Cell>
+								</Group>
+							</Panel>
+						</SplitCol>
+					)}
 					<SplitCol>
 						<Epic activeStory={activeStory} tabbar={
 							<Tabbar>
