@@ -79,7 +79,7 @@ const App = () => {
 							</Tabbar>
 						}>
 
-							<View activePanel={activePanel} id="server">
+<View activePanel={activePanel} id="server">
 								<Panel id="main">
 									<PanelHeader>Каталог</PanelHeader>
 									<Group>
@@ -99,7 +99,7 @@ const App = () => {
 													}}
 												/>
 											}
-											actions={<Button href="https://vk.com/limitofdesire" mode="overlay_primary" size="m">Играть!</Button>}
+											actions={<Button target="_blank" href="https://vk.com/limitofdesire" mode="overlay_primary" size="m">Играть!</Button>}
 										/>
 
 										<Banner
@@ -118,7 +118,7 @@ const App = () => {
 													}}
 												/>
 											}
-											actions={<Button href="https://vk.com/stalk_dayz" mode="overlay_primary" size="m">Играть!</Button>}
+											actions={<Button target="_blank" href="https://vk.com/stalk_dayz" mode="overlay_primary" size="m">Играть!</Button>}
 										/>
 
 										<Banner
@@ -137,7 +137,7 @@ const App = () => {
 													}}
 												/>
 											}
-											actions={<Button href="https://vk.com/dayz_darkway" mode="overlay_primary" size="m">Играть!</Button>}
+											actions={<Button target="_blank" href="https://vk.com/dayz_darkway" mode="overlay_primary" size="m">Играть!</Button>}
 										/>
 
 										<Banner
