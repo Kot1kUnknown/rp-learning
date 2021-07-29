@@ -48,37 +48,6 @@ const App = () => {
 			<AppRoot>
 				<SplitLayout>
 					<SplitCol>
-						{activePanel('glava1') && !<Epic activeStory={activeStory} tabbar={
-							<Tabbar>
-								<TabbarItem
-									text='Топ серверов'
-									selected={activeStory === "server"}
-									onClick={e => setActiveStory(e.currentTarget.dataset.story)}
-									data-story='server'
-								>
-									<Icon28Search />
-								</TabbarItem>
-
-								<TabbarItem
-									text='Учебник'
-									selected={activeStory === "learning"}
-									onClick={e => setActiveStory(e.currentTarget.dataset.story)}
-									data-story='learning'
-								>
-									<Icon28EducationOutline />
-								</TabbarItem>
-
-								<TabbarItem
-									text='Тестирование'
-									selected={activeStory === "tests"}
-									onClick={e => setActiveStory(e.currentTarget.dataset.story)}
-									data-story='tests'
-								>
-									<Icon28ArticleOutline />
-								</TabbarItem>
-							</Tabbar>
-						}> :
-						
 						<Epic activeStory={activeStory} tabbar={
 							<Tabbar>
 								<TabbarItem
@@ -108,7 +77,7 @@ const App = () => {
 									<Icon28ArticleOutline />
 								</TabbarItem>
 							</Tabbar>
-						}>}
+						}>
 
 							<View activePanel={activePanel} id="server">
 								<Panel id="main">
