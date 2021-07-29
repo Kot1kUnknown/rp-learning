@@ -156,10 +156,10 @@ const App = () => {
 													}}
 												/>
 											}
-											actions={<Button href="https://vk.com/alternaterp" mode="overlay_primary" size="m">Играть!</Button>}
+											actions={<Button target="_blank" href="https://vk.com/alternaterp" mode="overlay_primary" size="m">Играть!</Button>}
 										/>
 										<Placeholder
-											action={<Button size="m" mode="tertiary" href="https://discord.gg/YKdS8gbbxG">Показать больше серверов</Button>}
+											action={<Button target="_blank" size="m" mode="tertiary" href="https://discord.gg/YKdS8gbbxG">Показать больше серверов</Button>}
 										/>
 									</Group>
 								</Panel>
