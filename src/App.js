@@ -350,7 +350,7 @@ const App = () => {
 										</Div>
 										<Div style={{ display: 'flex' }}>
 											<Button onClick={() => setActivePanel('glava3')} size="l" before={<Icon24BrowserBack />} stretched>Глава 3</Button>
-											<Button onClick={() => setActivePanel('main')} size="l" after={<Icon24BrowserForward />} style={{ marginLeft: 8 }} stretched>Завершить!</Button>
+											<Button mode="commerce" onClick={() => setActivePanel('main')} size="l" after={<Icon24BrowserForward />} style={{ marginLeft: 8 }} stretched>Завершить!</Button>
 										</Div>
 									</Group>
 								</Panel>
